@@ -32,9 +32,12 @@ class Category:
     
     return False
 
-  # TODO: Implement transfer
   def transfer(self, amount, category):
-    print("made transfer")
+    has_funds_available = self.check_funds(amount)
+
+    if has_funds_available:
+      self.withdraw(amount, f'Transfer to {category.name}')
+      category.deposit(amount, f'Transfer to {self.name}')
 
 def create_spend_chart(categories):
   print("TODO: implement creating a spend chart")
