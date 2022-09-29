@@ -1,3 +1,18 @@
 {
-  "files": {}
+  "files": {
+    "main.py": [
+      {
+        "id": "2946fd3e-fbae-443c-97a7-9abea09f3a7b",
+        "line": 33,
+        "version": 191,
+        "index": 955
+      },
+      {
+        "id": "ce45c369-9c31-4ad5-ae8f-0fb417da16fb",
+        "line": 35,
+        "version": 191,
+        "index": 1017
+      }
+    ]
+  }
 }
